@@ -1,0 +1,99 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.2em;
+    /* color: white; */
+    background-image: url(https://www.koreanbapsang.com/wp-content/uploads/2019/11/DSC6782-4-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+header {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+#description {
+    margin: 0 0 1.7em;
+}
+
+/* Form */
+form {
+    background-color: rgba(228, 228, 228, 0.9);
+    padding: 2em;
+    width: 30em;
+    margin-bottom: 2em;
+    border-radius: 0.3em;
+}
+
+.form-group {
+    margin-bottom: 2em;
+}
+
+/* Spans */
+.age-optional, .romanised {
+    font-size: 0.8em;
+    margin-left: 0.3em;
+    opacity: 0.7;
+}
+
+/* Labels for inputs */
+label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+/* Input text fields, textarea */
+.form-control, textarea {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0.4em 0.8em;
+    border: 0 inset transparent;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+input, select, textarea, button {
+    font-family: inherit;
+    font-size: 0.9em;
+    line-height: inherit;
+}
+
+/* Radio, checkbox */
+input[type=radio], input[type=checkbox] {
+    width: 1.1em;
+    height: 1.1em;
+    margin: 0 0.6em 0 0;
+}
+
+/* Submit button */
+.submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(22, 132, 0);
+    font-weight: 800;
+    border: 1.7px solid rgb(22, 132, 0);
+    border-radius: 50px;
+    width: 12em;
+    height: 2.5rem;
+}
