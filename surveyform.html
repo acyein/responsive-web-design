@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kimchi Survey | Survey Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="surveyform.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title">Kimchi Survey</h1>
+            <p id="description">Love kimchi? Help us know you better!</p>
+        </header>
+        <form id="survey-form" action="">
+            <div class="form-group">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="age" id="number-label">Age<span class="age-optional">(optional)</span></label>
+                <input type="number" id="number" class="form-control" placeholder="Age" min="0" max="100">
+            </div>    
+            <div class="form-group">
+                <p>What type of kimchi do you like best?</p>
+                <select name="kimchi" id="dropdown" class="form-control">
+                    <option selected="true" disabled>Select favourite kimchi</option>
+                    <option value="napa-cabbage">Napa cabbage kimchi</option>
+                    <option value="white-kimchi">White kimchi</option>
+                    <option value="diced-radish">Diced radish kimchi</option>
+                    <option value="young-radish">Young summer radish kimchi</option>
+                    <option value="cucumber-kimchi">Cucumber kimchi</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>How ripe do you typically like your kimchi?</p>
+                <label>
+                    <input type="radio" name="sourness" value="fresh">Fresh
+                </label>
+                <label>
+                    <input type="radio" name="sourness" value="slightly-sour">Slightly sour
+                </label>
+                <label>
+                    <input type="radio" name="sourness" value="sour">Sour
+                </label>
+                <label>
+                    <input type="radio" name="sourness" value="extra-sour">Extra sour
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Which dishes do you often enjoy with kimchi?</p>
+                <label>
+                    <input type="checkbox" name="kimchi-pairing" value="plain-rice">Fried rice
+                    <span class="romanised">/ Bap</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="kimchi-pairing" value="seaweed-rice-rolls">Seaweed rice rolls
+                    <span class="romanised">/ Gimbap</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="kimchi-pairing" value="instant-noodles">Instant noodles
+                    <span class="romanised">/ Ramyeon</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="kimchi-pairing" value="cold-noodle-soup">Cold noodle soup
+                    <span class="romanised">/ Naengmyeon</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="kimchi-pairing" value="fried-rice">Fried rice
+                    <span class="romanised">/ Bokkeumbap</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="kimchi-pairing" value="mixed-rice">Mixed rice with vegetables
+                    <span class="romanised">/ Bibimbap</span>
+                </label>
+                <label>
+                    <input type="checkbox" name="kimchi-pairing" value="black-bean-noodles">Black bean noodles
+                    <span class="romanised">/ Jjajangmyeon</span>
+                </label>
+            </div>
+            <div class="form-group">
+                <p>Feel free to add more details about kimchi!</p>
+                <textarea name="extra-info" id="extra-info" rows="5" placeholder="Share your thoughts with us!"></textarea>
+            </div>
+            <div class="submit-button">
+                <button id="submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
