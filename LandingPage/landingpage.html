@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoftCup | Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="landingpage.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header id="header">
+        <div class="brand">
+            <img id="header-img" src="https://image.flaticon.com/icons/svg/119/119075.svg" alt="SoftCup logo">
+            <a href="/">SoftCup</a>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#sizes" class="nav-link">Sizes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Email form -->
+    <section id="top">
+        <h2>Towards A Comfortable Period</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" name="email" id="email" placeholder="Enter Your Email Address" required>
+            <input type="submit" id="submit" value="SUBMIT">
+        </form>
+    </section>
+
+    <div class="container">
+        <!-- 01-How It Works -->
+        <section id="how-it-works">
+            <h2>How It Works</h2>
+            <div class="process">
+                <div class="step">
+                    <p class="step-number">Step 1</p>
+                    <h3>Fold and insert</h3>
+                    <p class="desc">The soft OrganiCup unfolds to form a light suction seal, keeping it securely in place.</p>
+                </div>
+                <div class="step">
+                    <p class="step-number">Step 2</p>
+                    <h3>Wear up to 12 hours</h3>
+                    <p class="desc">When inserted correctly you shouldn’t feel the OrganiCup. Go swim, do sports and forget all about your period. Also at night.</p>
+                </div>
+                <div class="step">
+                    <p class="step-number">Step 3</p>
+                    <h3>Empty, rinse, repeat</h3>
+                    <p class="desc">Simple! Once you get the hang of it, you’ll wonder how you ever lived without it.</p>
+                </div>
+            </div>
+            <div id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/o9fPUfm-uYE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- 02-Features -->
+        <section id="features">
+            <h2>Features</h2>
+            <div class="grid">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-globe" width="92" height="92" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009688" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <circle cx="12" cy="10" r="4" />
+                        <path d="M6.75 16a8.015 8.015 0 1 0 9.25 -13" />
+                        <line x1="12" y1="18" x2="12" y2="22" />
+                        <line x1="8" y1="22" x2="16" y2="22" />
+                    </svg>
+                </div>
+                <div class="desc">
+                    <h3>Greener</h3>
+                    <p>Save money, spare our planet</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bulb" width="92" height="92" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009688" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <path d="M3 12h1M12 3v1M20 12h1M5.6 5.6l.7 .7M18.4 5.6l-.7 .7" />
+                        <path d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3" />
+                        <line x1="9.7" y1="17" x2="14.3" y2="17" />
+                    </svg>
+                </div>
+                <div class="desc">
+                    <h3>Healthier</h3>
+                    <p>No dryness, no infections</p>
+                </div>
+            </div>
+            <div class="grid">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-bed" width="92" height="92" viewBox="0 0 24 24" stroke-width="1.5" stroke="#009688" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <path d="M3 7v11m0 -4h18m0 4v-8a2 2 0 0 0 -2 -2h-8v6" />
+                        <circle cx="7" cy="10" r="1" />
+                    </svg>
+                </div>
+                <div class="desc">
+                    <h3>Easier</h3>
+                    <p>No leaks, no worries</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 03-Sizes -->
+        <section id="sizes">
+            <h2>Sizes</h2>
+            <div class="container1">
+                <div class="specs-image">
+                    <img src="https://www.organicup.com/wp-content/themes/organicup/img/products/specifications.png" alt="SoftCup specifications">
+                </div>
+                <div class="container2">
+                    <div class="product">
+                        <h3>Mini</h3>
+                        <p class="desc">If you are a teen or need a smaller size</p>
+                        <ul class="specs">
+                            <li>Capacity - 17ml</li>
+                            <li>Diameter - 37mm</li>
+                            <li>Cup length - 58mm</li>
+                            <li>Stem length - 14mm</li>
+                        </ul>
+                    </div>
+                    <div class="product">
+                        <h3>A</h3>
+                        <p class="desc">If you have not given birth vaginally</p>
+                        <ul class="specs">
+                            <li>Capacity - 25ml</li>
+                            <li>Diameter - 40mm</li>
+                            <li>Cup length - 65mm</li>
+                            <li>Stem length - 15mm</li>
+                        </ul>
+                    </div>
+                    <div class="product">
+                        <h3>B</h3>
+                        <p class="desc">If you have given birth vaginally</p>
+                        <ul class="specs">
+                            <li>Capacity - 30ml</li>
+                            <li>Diameter - 45mm</li>
+                            <li>Cup length - 70mm</li>
+                            <li>Stem length - 15mm</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <ul>
+          <li><a href="https://organicup.com" title="Credits to OrganiCup for most of the content!">OrganiCup</a></li>
+          <li><a href="https://www.flaticon.com/" title="Brand logo is by Freepik from Flaticon">Flaticon</a></li>
+          <li><a href="#" title="Let us help you!">Contact Us</a></li>
+        </ul>
+        <span>&copy 2020 SoftCup</span>
+      </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
