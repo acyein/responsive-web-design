@@ -1,0 +1,18 @@
+body {
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: 'Merriweather', serif;
+}
+
+span {
+    font-style: italic;
+}
+
+code {
+    font-size: 1.2em;
+    /* background-color: rgb(233, 233, 233); */
+    white-space: pre;
+}
