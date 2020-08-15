@@ -2,12 +2,13 @@
 
 ## 5 Projects
 ### **1. Tribute Page**
-View on [CodePen](https://codepen.io/acyein/pen/LYGwpGR)
+View on [CodePen](https://codepen.io/acyein/full/LYGwpGR)
 ### **2. Survey Form**
-View on [CodePen](https://codepen.io/acyein/pen/qBbeeLy)
+View on [CodePen](https://codepen.io/acyein/full/qBbeeLy)
 ### **3. Product Landing Page**
-View on [CodePen](https://codepen.io/acyein/pen/QWNbBYq)
+View on [CodePen](https://codepen.io/acyein/full/QWNbBYq)
 ### **4. Technical Documentation Page**
+View on [CodePen](https://codepen.io/acyein/full/MWyymaz)
 ### **5. Personal Portfolio Webpage**
 
 ## Tools
