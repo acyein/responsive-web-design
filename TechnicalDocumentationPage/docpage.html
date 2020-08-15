@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +7,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="docpage.css">
 </head>
-
 <body>
     <!-- Navbar -->
-    <nav>
-        <h1>JS Documentation</h1>
+    <nav id="navbar">
+        <header>
+            <h1>JS Documentation</h1>
+        </header>
         <ul>
-            <li><a href="#Introduction">Introduction</a></li>
-            <li><a href="#Grammar_and_types">Grammar and types</a></li>
-            <li><a href="#Control_flow_and_error_handling">Control flow and error handling</a></li>
-            <li><a href="#Loops_and_iteration">Loops and iteration</a></li>
-            <li><a href="#Functions">Functions</a></li>
-            <li><a href="#Reference">Reference</a></li>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Grammar_and_types">Grammar and types</a></li>
+            <li><a class="nav-link" href="#Control_flow_and_error_handling">Control flow and error handling</a></li>
+            <li><a class="nav-link" href="#Loops_and_iteration">Loops and iteration</a></li>
+            <li><a class="nav-link" href="#Functions">Functions</a></li>
+            <li><a class="nav-link" href="#Reference">Reference</a></li>
         </ul>
     </nav>
 
@@ -40,9 +40,9 @@
 
             <h3>What is JavaScript?</h3>
             <p>JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.g., having complex animations, clickable buttons, popup menus, etc.). There are also more advanced server side versions of JavaScript such as Node.js, which allow you to add more functionality to a website than simply downloading files (such as realtime collaboration between multiple computers). Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
-            <p>JavaScript contains a standard library of objects, such as <code>Array</code>, <code>Date</code>, and <code>Math</code>, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
+            <p>JavaScript contains a standard library of objects, such as Array, Date, Math and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
             <ul>
-                <li><span>Client-side JavaScript</span> extends the core language by supplying objects to control a browser and its <span>Document Object Model</span> (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</li>
+                <li>Client-side JavaScript</> extends the core language by supplying objects to control a browser and its <>Document Object Model</> (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</li>
                 <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</li>
             </ul>
             <p>This means that in the browser, JavaScript can change the way the webpage (DOM) looks. And, likewise, Node.js JavaScript on the server can respond to custom requests from code written in the browser.</p>
@@ -76,16 +76,18 @@
 
         <!-- 02-Grammar and types -->
         <section class="main-section" id="Grammar_and_types">
-            <h2>Grammar and types</h2>
+            <header>
+                <h2>Grammar and types</h2>
+            </header>
 
             <h3>Declarations</h3>
             <p>JavaScript has three kinds of variable declarations.</p>
             <ul>
-                <code>var</code>
+                var
                 <li>Declares a variable, optionally initializing it to a value.</li>
-                <code>let</code>
+                let
                 <li>Declares a block-scoped, local variable, optionally initializing it to a value.</li>
-                <code>const</code>
+                const
                 <li>Declares a block-scoped, read-only named constant.</li>
             </ul>
 
@@ -122,7 +124,8 @@
                 }
                 console.log(y);  // ReferenceError: y is not defined
             </code>
-            
+
+            <br>
             <h4>Global variables</h4>
             <p>Global variables are in fact properties of the global object.</p>
             <p>In web pages, the global object is window, so you can set and access global variables using the window.variable syntax.</p>
@@ -183,7 +186,9 @@
 
         <!-- 03-Control flow and error handling -->
         <section class="main-section" id="Control_flow_and_error_handling">
-            <h2>Control flow and error handling</h2>
+            <header>
+                <h2>Control flow and error handling</h2>
+            </header>
             <h3>Conditional statements</h3>
             <p>A conditional statement is a set of commands that executes if a specified condition is true. JavaScript supports two conditional statements: if...else and switch.</p>
 
@@ -218,10 +223,15 @@
 
         <!-- 04-Loops and interation -->
         <section class="main-section" id="Loops_and_iteration">
-            <h2>Loops and iteration</h2>
+            <header>
+                <h2>Loops and iteration</h2>
+            </header>
             <h3>while statement</h3>
             <p>A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:</p>
-            <code></code>
+            <code>
+                while (condition)
+                    statement
+            </code>
             <p>If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop.</p>
             <p>The condition test occurs before statement in the loop is executed. If the condition returns true, statement is executed and the condition is tested again. If the condition returns false, execution stops, and control is passed to the statement following while.</p>
             <p>To execute multiple statements, use a block statement ({ ... }) to group those statements.</p>
@@ -258,7 +268,9 @@
 
         <!-- 05-Functions -->
         <section class="main-section" id="Functions">
-            <h2>Functions</h2>
+            <header>
+                <h2>Functions</h2>
+            </header>
 
             <h3>Defining functions</h3>
             <h4>Function declarations</h4>
@@ -300,10 +312,11 @@
 
         <!-- 06-Reference -->
         <section class="main-section" id="Reference">
-            <h2>Reference</h2>
-            <p>All the documentation on this page is from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a></p>
+            <header>
+                <h2>Reference</h2>
+            </header>
+            <p>All the documentation on this page is from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a>.</p>
         </section>
     </main>
 </body>
-
 </html>
