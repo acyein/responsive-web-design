@@ -4,28 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yein</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.9/typicons.min.css" integrity="sha512-RibaM8rs5cOvzf+pDw9BOiH4dy+VTOxxzfwONMkOOd/lFbKWcirhXkWcSd0S6GPwfQRT4OrjT8iAKVC5iIvMRA==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
     <!-- Navbar -->
     <nav id="navbar">
-        <a href="">About</a>
-        <a href="">Projects</a>
-        <a href="">Contact</a>
+        <ul>
+            <li><a href="#welcome-section">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
-    <!-- Welcome -->
+    <!-- 01-Welcome -->
     <section id="welcome-section">
-        <h1>Hello! I'm Yein</h1>
+        <h1>Hello, I'm <span>Yein</span>!</h1>
         <p>An aspiring web developer</p>
     </section>
-    <!-- Projects -->
+    <!-- 02-Projects -->
     <section id="projects">
-        <div class="project-tile">
-            <a href=""></a>
+        <h2>Here are some of my projects</h2>
+        <div id="projects-grid">
+            <a class="project-tile" href="https://codepen.io/acyein/full/LYGwpGR" target="_blank">
+                <img src="https://assets.codepen.io/4752954/internal/screenshots/pens/LYGwpGR.default.png?fit=cover&format=auto&ha=false&height=720&quality=75&v=2&version=1597476693&width=1279" alt="Tribute Page image preview">
+                <p>Tribute Page</p>
+            </a>
+            <a class="project-tile" href="https://codepen.io/acyein/full/qBbeeLy" target="_blank">
+                <img src="https://assets.codepen.io/4752954/internal/screenshots/pens/qBbeeLy.default.png?fit=cover&format=auto&ha=false&height=720&quality=75&v=2&version=1597476725&width=1279" alt="Survey Form image preview">
+                <p>Survey Form</p>
+            </a>
+            <a class="project-tile" href="https://codepen.io/acyein/pen/QWNbBYq" target="_blank">
+                <img src="https://assets.codepen.io/4752954/internal/screenshots/pens/QWNbBYq.default.png?fit=cover&format=auto&ha=true&height=720&quality=75&v=2&version=1597476746&width=1279" alt="Product Landing Page image preview">
+                <p>Product Landing Page</p>
+            </a>
+            <a class="project-tile" href="https://codepen.io/acyein/pen/MWyymaz" target="_blank">
+                <img src="https://assets.codepen.io/4752954/internal/screenshots/pens/MWyymaz.default.png?fit=cover&format=auto&ha=true&height=720&quality=75&v=2&version=1597482935&width=1279" alt="Technical Documentation Page image preview">
+                <p>Technical Documentation Page</p>
+            </a>
         </div>
     </section>
-    <!-- Contact -->
-    <section id="profile-link">
-        <a target="_blank" href="https://github.com/acyein">Github</a>
+    <!-- 03-Contact -->
+    <section id="contact">
+        <h2>Let's Connect</h2>
+        <ul>
+            <li><a id="profile-link" href="https://github.com/acyein" target="_blank"><i class="typcn typcn-social-github"></i> Github</a></li>
+            <li><a href="https://www.linkedin.com/in/angchianyein" target="_blank"><i class="typcn typcn-social-linkedin"></i> LinkedIn</a></li>
+            <li><a href="mailto:chianyein@gmail.com"><i class="typcn typcn-mail"></i> Email</a></li>
+        </ul>
     </section>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
