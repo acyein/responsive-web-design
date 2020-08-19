@@ -37,13 +37,13 @@ a {
 
 /* -- Navbar -- */
 #navbar {
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     height: 10vh;
     width: 100%;
     background-color: #F1FAEE;
-    position: fixed;
 }
 
 #navbar ul {
@@ -63,7 +63,6 @@ a {
     color: black;
     font-size: 1.2em;
     padding: 0 0.6em;
-    scroll-behavior: smooth;
 }
 
 #navbar a:hover, #contact a:hover {
@@ -98,10 +97,10 @@ span {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
-    background-color: #157A6E;
+    width: 100%;
     padding: 8em 2em;
     box-sizing: border-box;
-    width: 100%;
+    background-color: #157A6E;
 }
 
 #projects h2 {
