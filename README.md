@@ -1,4 +1,4 @@
-# Responsive Web Design
+# Responsive Web Design Projects
 
 ## 1. [Tribute Page](https://codepen.io/acyein/full/LYGwpGR)
 ![Tribute Page preview](https://assets.codepen.io/4752954/internal/screenshots/pens/LYGwpGR.default.png?fit=cover&format=auto&ha=false&height=720&quality=75&v=2&version=1597476693&width=1279)
