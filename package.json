@@ -4,7 +4,7 @@
   "description": "Projects made in FreeCodeCamp's Responsive Web Design course",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d SurveyForm"
+    "deploy": "gh-pages -d PersonalPortfolio"
   },
   "repository": {
     "type": "git",
